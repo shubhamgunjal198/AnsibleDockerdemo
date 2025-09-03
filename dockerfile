@@ -1,4 +1,4 @@
-FROM tomcat:9
+FROM tomcat:10
 LABEL maintainer="Sonal"
 ADD addressbook.war /usr/local/tomcat/webapps
 CMD ["catalina.sh", "run"]
